@@ -1,0 +1,95 @@
+## **HTML INTRODUCTION**
+![imagen](https://desarrolloweb.com/storage/tag_images/actual/n20BWPxy4WXVZyC94Cvn2pPus1LSIo2drcqniEkJ.png)
+
+## HTML PAGE: [HTML INTRODUCTION](https://www.w3schools.com/html/default.asp)
+
+### **HTML Tutorial**
+-(HTML HOME)[https://www.w3schools.com/html/default.asp]
+-(HTML Introduction)[https://www.w3schools.com/html/html_intro.asp]
+-(HTML Editors)[https://www.w3schools.com/html/html_editors.asp]
+-(HTML Basic)[https://www.w3schools.com/html/html_basic.asp]
+-(HTML Elements)[https://www.w3schools.com/html/html_elements.asp]
+-(HTML Attributes)[https://www.w3schools.com/html/html_elements.asp]
+-(HTML Headings)[https://www.w3schools.com/html/html_headings.asp]
+-(HTML Paragraphs)[https://www.w3schools.com/html/html_paragraphs.asp]
+-(HTML Styles)[https://www.w3schools.com/html/html_styles.asp]
+-(HTML Formatting)[https://www.w3schools.com/html/html_formatting.asp]
+-(HTML Quotations)[https://www.w3schools.com/html/html_quotation_elements.asp]
+-(HTML Comments)[https://www.w3schools.com/html/html_comments.asp]
+-(HTML Colors)[https://www.w3schools.com/html/html_colors.asp]
+-(HTML CSS)[https://www.w3schools.com/html/html_css.asp]
+-(HTML Links)[https://www.w3schools.com/html/html_links.asp]
+-(HTML Images)[https://www.w3schools.com/html/html_images.asp]
+-(HTML Favicon)[https://www.w3schools.com/html/html_favicon.asp]
+-(HTML Tables)[https://www.w3schools.com/html/html_tables.asp]
+-(HTML Lists)[https://www.w3schools.com/html/html_lists.asp]
+-(HTML Block & Inline)[https://www.w3schools.com/html/html_blocks.asp]
+-(HTML Classes)[https://www.w3schools.com/html/html_classes.asp]
+-(HTML Id)[https://www.w3schools.com/html/html_id.asp]
+-(HTML Iframes)[https://www.w3schools.com/html/html_iframe.asp]
+-(HTML JavaScript)[https://www.w3schools.com/html/html_scripts.asp]
+-(HTML File Paths)[https://www.w3schools.com/html/html_filepaths.asp]
+-(HTML Head)[https://www.w3schools.com/html/html_head.asp]
+-(HTML Layout)[https://www.w3schools.com/html/html_layout.asp]
+-(HTML Responsive)[https://www.w3schools.com/html/html_responsive.asp]
+-(HTML Computercode)[https://www.w3schools.com/html/html_computercode_elements.asp]
+-(HTML Semantics)[https://www.w3schools.com/html/html5_semantic_elements.asp]
+-(HTML Style Guide)[https://www.w3schools.com/html/html5_syntax.asp]
+-(HTML Entities)[https://www.w3schools.com/html/html_entities.asp]
+-(HTML Symbols)[https://www.w3schools.com/html/html_symbols.asp]
+-(HTML Emojis)[https://www.w3schools.com/html/html_emojis.asp]
+-(HTML Charset)[https://www.w3schools.com/html/html_charset.asp]
+-(HTML URL Encode)[https://www.w3schools.com/html/html_urlencode.asp]
+-(HTML vs. XHTML)[https://www.w3schools.com/html/html_xhtml.asp]
+
+### **HTML Forms**
+-(HTML Forms)[https://www.w3schools.com/html/html_forms.asp]
+-(HTML Form Attributes)[https://www.w3schools.com/html/html_forms_attributes.asp]
+-(HTML Form Elements)[https://www.w3schools.com/html/html_form_elements.asp]
+-(HTML Input Types)[https://www.w3schools.com/html/html_form_input_types.asp]
+-(HTML Input Attributes)[https://www.w3schools.com/html/html_form_attributes.asp]
+-(HTML Input Form Attributes)[https://www.w3schools.com/html/html_form_attributes_form.asp]
+
+### **HTML Graphics**
+-(HTML Canvas)[https://www.w3schools.com/html/html5_canvas.asp]
+-(HTML SVG)[https://www.w3schools.com/html/html5_svg.asp]
+
+### **HTML Media**
+-(HTML Media)[https://www.w3schools.com/html/html_media.asp]
+-(HTML Video)[https://www.w3schools.com/html/html5_video.asp]
+-(HTML Audio)[https://www.w3schools.com/html/html5_audio.asp]
+-(HTML Plug-ins)[https://www.w3schools.com/html/html_object.asp]
+-(HTML YouTube)[https://www.w3schools.com/html/html_youtube.asp]
+
+### **HTML APIs**
+-(HTML Geolocation)[https://www.w3schools.com/html/html5_geolocation.asp]
+-(HTML Drag/Drop)[https://www.w3schools.com/html/html5_draganddrop.asp]
+-(HTML Web Storage)[https://www.w3schools.com/html/html5_webstorage.asp]
+-(HTML Web Workers)[https://www.w3schools.com/html/html5_webworkers.asp]
+-(HTML SSE)[https://www.w3schools.com/html/html5_serversentevents.asp]
+
+### **HTML Examples**
+-(HTML Examples)[https://www.w3schools.com/html/html_examples.asp]
+-(HTML Quiz)[https://www.w3schools.com/html/html_quiz.asp]
+-(HTML Exercises)[https://www.w3schools.com/html/html_exercises.asp]
+-(HTML Certificate)[https://www.w3schools.com/html/html_exam.asp]
+-(HTML Summary)[https://www.w3schools.com/html/html_summary.asp]
+-(HTML Accessibility)[https://www.w3schools.com/html/html_accessibility.asp]
+
+### **HTML References**
+-(HTML Tag List)[]
+-(HTML Attributes)[]
+-(HTML Global Attributes)[]
+-(HTML Browser Support)[]
+-(HTML Events)[]
+-(HTML Colors)[]
+-(HTML Canvas)[]
+-(HTML Audio/Video)[]
+-(HTML Doctypes)[]
+-(HTML Character Sets)[]
+-(HTML URL Encode)[]
+-(HTML Lang Codes)[]
+-(HTTP Messages)[]
+-(HTTP Methods)[]
+-(PX to EM Converter)[]
+-(Keyboard Shortcuts)[]

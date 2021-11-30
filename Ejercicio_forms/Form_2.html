@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table style="width: 800px; border: 2px solid black;">
+        <tr style="background-color: aqua;">
+            <th>Event Planner</th>
+            <td colspan="4">
+                <input list="action" value="More Action" style="width: 100px; border: none; background-color: aqua;">
+                <datalist id="action">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <th>Event Name</th>
+            <td><input type="text"></td>
+            <th>Requeriments</th>
+            <td>
+               <br> <br>
+                <input type="checkbox">Staffing <br>
+                <input type="checkbox">Catering <br>
+                <input type="checkbox">Security
+            </td>
+        </tr>
+        <tr>
+            <th>Event Coordinator</th>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <th><p> Email</p></th>
+            <td><input type="email"></td>
+            <th>Event Start Date</th>
+            <td><input type="date">[dd-MMM-YYYY]</td>
+        </tr>
+        <tr>
+            <th>Event Type</th>
+            <td>
+                <input list="Concert" value="Concert" style="width: 200px;">
+                <datalist id="Concert">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </datalist>
+            </td>
+            <th>Event Start Date</th>
+            <td><input type="date">[dd-MMM-YYYY]</td>
+        </tr>
+        <tr>
+            <th>Total Members</th>
+            <td>
+                <input list="Select" value="-Select-" style="width: 200px;">
+                <datalist id="Select">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </datalist>
+            </td>
+            <th>Location</th>
+            <td style="padding-top: 50px;"><input type="text" style="width: 200px; height: 100px;"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Event Description</th>
+            <td style="padding-top: 50px;"><input type="text" style="width: 200px; height: 100px;"></td>
+            <th>City</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th colspan="4" style="padding-left: 260px;"> State <input type="text"></th>
+        </tr>
+        <tr>
+            <th>Does your program <br> involve any type of <br> outside activity?</th>
+            <td>
+                <input type="radio">Yes <br>
+                <input type="radio">No
+            </td>
+            <th>Country</th>
+            <td><input list="Select" value="-Select-" style="width: 200px;">
+                <datalist id="Select">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </datalist></td>
+        </tr>
+        <tr>
+            <th>Cost Per Person</th>
+            <td><input type="text"></td>
+            <th>Attach Detailed Itinerary</th>
+            <td><input type="text"><input type="button" value="Browse"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="2" style="padding-right: 30px;"><input type="buttom" value="Submmit" style="background-color: aquamarine; width: 80px;"><input type="buttom" value="Reset" style="background-color: aquamarine; width: 80px;"></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

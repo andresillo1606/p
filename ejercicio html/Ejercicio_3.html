@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       table,tr,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 400px; height: 400px;">
+        <tr>
+            <th><p> Text </p></th>
+            <th><p> Text </p></th>
+            <th colspan="2" style="padding-right: 20px;"><p>Text </p></th>
+            <th colspan="2"><p>Text </p></th>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;"><p>Text </p></td>
+            <td style="vertical-align: bottom;"><p>Text </p></td>
+            <td colspan="2" style="vertical-align: bottom; text-align: right;"><p>Text </p></td>
+            <td style="text-align: center;"><p>Text </p></td>
+            <td style="text-align: center;"><p>Text </p></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: center;"><p>Text </p></td>
+            <td rowspan="2" style="vertical-align: top;"><p>Text </p></td>
+            <td style="vertical-align: top;"><p>Text </p></td>
+            <td style="vertical-align: top;"><p>Text </p></td>
+            <td style="text-align: center;"><p>Text </p></td>
+            <td style="text-align: right;"><p>Text </p></td>
+        </tr>
+        <tr>
+           <td rowspan="2" style="text-align: center;"><p>Text </p></td>
+           <td rowspan="2" style="text-align: center;"><p>Text </p></td>
+           <td style="text-align: center;"><p>Text </p></td>
+           <td style="text-align: center;"><p>Text </p></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: bottom;"><p>Text </p></td>
+            <td><p>Text </p></td>
+            <td style="vertical-align: top;"><p>Text </p></td>
+            <td style="vertical-align: top;"><p>Text </p></td>
+        </tr>
+    </table>
+</body>
+</html>

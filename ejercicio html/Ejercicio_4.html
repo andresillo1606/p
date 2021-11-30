@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset,tr,td,th{
+            width: 580px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="destination.html"></form>
+    <fieldset style="border: 5px solid blue;">
+    <h1>Reservation Request</h1>
+        <fieldset style="border: 2px solid black;"><legend style="color: blue;">General Information</legend>
+            <table>
+                    <tr>
+                        <td><label for="date"> Arrival date:</label></td>
+                        <td><input type="date" style="width: 130px;"></td>
+                        <td style="color: red;">Arrival date is invalid</td>
+                    </tr>
+                    <tr>
+                        <td><label for="text">Nihts:</label></td>
+                        <td><input type="text" value="three" style="width: 130px;"></td>
+                        <td style="color: red;">Nights must be a number</td>
+                    </tr>
+                    <tr>
+                        <td><label for="number">Adults</label></td>
+                        <td><input list="Adults" style="width: 20px;">
+                            <datalist id="Adults">
+                                <option value="0"></option>
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="number">Children</label></td>
+                        <td><input list="Children" style="width: 20px;">
+                            <datalist id="Children">
+                                <option value="0"></option>
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+            </table>
+        </fieldset>
+        <fieldset style="border: 2px solid black; "><legend style="color: blue;">Preferences</legend>
+            <table>
+                <tr>
+                    <td><label for="radio">Room type:</label></td>
+                    <td><input type="radio">Standard</td>
+                    <td><input type="radio">Business</td>
+                    <td><input type="radio">Suite</td>
+                </tr>
+                <tr>
+                    <td><label for="radio">Bed type:</label></td>
+                    <td><input type="radio">King</td>
+                    <td><input type="radio">Double Double</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Smoking</td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="border: 2px solid black; "><legend style="color: blue;">Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label for="text">Name:</label></td>
+                    <td><input type="text"></td>
+                    <td style="color: red;">Name is required</td>
+                </tr>
+                <tr>
+                    <td><label for="text">Email:</label></td>
+                    <td><input type="text"></td>
+                    <td style="color: red;">Email address is invalid</td>
+                </tr>
+                <tr>
+                    <td><label for="text">Phone:</label></td>
+                    <td><input type="text"></td>
+                    <td style="color: red;">Phone number is invalid</td>
+                </tr>
+            </table>
+        </fieldset>
+    </fieldset>
+</body>
+</html>

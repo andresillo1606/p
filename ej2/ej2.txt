@@ -1,0 +1,1 @@
+No son iguales por que los dos primeros tenían una clase mientras los otros no. Lo que en el CSS el parrafo era distinto al de la clase

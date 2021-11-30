@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <style>
+        table{
+            width: 400px;
+        }
+        table,tr,td,th{
+            padding-top: 10px;
+            border-collapse: collapse;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="destination.html"></form>
+    <table>
+        <tr style="border-bottom: 0.1px solid rgb(182, 182, 182);">
+            <th>
+                <p>
+                    <label for="title">Title:</label><br>
+                    <input type="text" style="width: 300px;">
+                </p>
+            </th>
+            <th>
+                <p>
+                    <label for="short title">Short Title:</label><br>
+                    <input type="text" style="width: 200px;">
+                </p> 
+            </th>
+            <th>
+                <p>
+                    <label for="subj" id="ss">Subj.:</label><br>
+                    BLST
+                </p>               
+            </th>
+            <th>
+                <p>
+                    <label for="num" id="ss">Num.:</label><br>
+                    <input type="text" style="width: 30px">
+                </p>                
+            </th>
+            <th>
+                <p>
+                    <label for="section" id="ss">Section:</label><br>
+                    <input type="text" style="width: 40px">
+                </p>                
+            </th>
+            <th>
+                <p>
+                    <label for="year" id="ss">Year:</label><br>
+                    0910
+                </p>                
+            </th>
+        </tr>
+        <tr style="border-bottom: 0.1px solid rgb(182, 182, 182);">
+            <td>
+                <input type="checkbox">Enrollment limit
+            </td>
+            <th>
+                <label for="num">Num.:</label><br>
+                <input type="text" style="width: 30px">
+            </th>
+            <th style="border-right: 0.1px solid rgb(182, 182, 182);">
+                <label for="rationale">Rationale:</label><br>
+                <input type="text" style="width: 300px">
+            </th>
+            <th rowspan="4" style="vertical-align: top; border-right: 0.1px solid rgb(182, 182, 182);">
+                <label for="class meeting/week" id="p">Class Meetings/Week:</label><br>
+                <input type="number">
+                <label for="class meeting/week">Class Hours/Week:</label><br>
+                <input type="number">
+                <label for="class meeting/week">Semester(s) Offered:</label><br>
+                <input type="number" value="none">
+                <input type="checkbox">Incl. semester in<br>prereqs.<br>
+                <input type="checkbox">Offered only one<br>
+                <input type="checkbox">Incl. in printed<br>catalog
+            </th>
+            <th colspan="2" rowspan="4" style="vertical-align: top;">
+                <label for="keywords">Keywords:</label><br>
+                <input type="checkbox">Science for non-majors <br>
+                <input type="checkbox">Fine arts for non-majors <br>
+                <input type="checkbox">Lab science course <br>
+                <input type="checkbox">Artist practise <br>
+                <input type="checkbox">Foreign language/culture taught in English<br>
+                <input type="checkbox">Community based learning <br>
+                <input type="checkbox">Writing attentive <br>
+                <input type="checkbox">Writing intensive <br>
+            </th>
+        </tr>
+        <tr  style="border-bottom: 0.1px solid rgb(182, 182, 182);">
+            <td>
+                <input type="checkbox">Consent required
+            </td>
+            <td></td>
+            <th style="border-right: 0.1px solid rgb(182, 182, 182);">
+                <label for="rationale">Rationale:</label><br>
+                <input type="text"  style="width: 300px">
+            </th>
+        </tr>
+        <tr  style="border-bottom: 0.1px solid rgb(182, 182, 182);">
+            <td>
+                <input type="checkbox">Limit class level
+            </td>
+            <th>
+                <label for="num">Code:</label><br>
+                <input type="text" style="width: 30px">
+            </th>
+            <th style="border-right: 0.1px solid rgb(182, 182, 182);">
+                <label for="rationale">Rationale:</label><br>
+                <input type="text"  style="width: 300px">
+                <label for="rationale">How to handle over-enrollment:</label><br>
+                <input type="text"  style="width: 300px">
+            </th>
+        </tr>
+        <tr style="border-bottom: 0.1px solid rgb(182, 182, 182);">
+            <td>
+                <input type="checkbox">Prerequisite
+            </td>
+            <th style="border-right: 0.1px solid rgb(182, 182, 182);" colspan="2">
+                <label for="rationale">Rationale:</label><br>
+                <input type="text"  style="width: 300px">
+                <label for="rationale">Required Prereqs.(major,course):</label><br>
+                <input type="text"  style="width: 300px">
+                <label for="rationale">Recommended Prereqs.:</label><br>
+                <input type="text"  style="width: 300px">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Approvals:
+            </th>
+            <th colspan="3">
+                Date:
+            </th>
+            <th>
+                Comment:
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox">CEP
+            </td>
+            <td>
+                <img src="img/Flechas.jpeg" style="width: 20px;padding-right: 20px;">
+            </td>
+            <td>
+                <input type="text" style="width: 300px;">
+            </td>
+            <td>
+                <img src="img/Flechas.jpeg" style="width: 20px;padding-right: 20px;">
+            </td>
+            <td>
+                <input type="text" style="width: 300px;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox">Committee of Six
+            </td>
+            <td>
+                <img src="img/Flechas.jpeg" style="width: 20px;padding-right: 20px;">
+            </td>
+            <td>
+                <input type="text" style="width: 300px;">
+            </td>
+            <td>
+                <img src="img/Flechas.jpeg" style="width: 20px;padding-right: 20px;">
+            </td>
+            <td>
+                <input type="text" style="width: 300px;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox">Faculty
+            </td>
+            <td>
+                <img src="img/Flechas.jpeg" style="width: 20px;padding-right: 20px;">
+            </td>
+            <td>
+                <input type="text" style="width: 300px;">
+            </td>
+            <td>
+                <img src="img/Flechas.jpeg" style="width: 20px;padding-right: 20px;">
+            </td>
+            <td>
+                <input type="text" style="width: 300px;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
